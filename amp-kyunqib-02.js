@@ -1,3 +1,13 @@
+// BloggerJS v0.3.1
+// Copyright (c) 2017-2018 Kenny Cruz
+// Licensed under the MIT License
+// Configuration -----------
+var postsDatePrefix = false;
+var accessOnly = false;
+var useApiV3 = false;
+var apiKey = "Api-Key";
+var blogId = "<data:blog.blogId/>";
+// -------------------------
 var postsOrPages=["pages","posts"],urlTotal,jsonIndex=1,secondRequest=!0,feedPriority=0,amp="&amp;"[0],nextPageToken;function urlVal(){var url=window.location.pathname;var length=url.length;var urlEnd=url.substring(length-5);if(urlEnd===".html")return 0;else if(length>1)return 1;else return 2}
 function urlMod(){var url=window.location.pathname;if(url.substring(1,2)==="p"){url=url.substring(url.indexOf("/",1)+1);url=url.substr(0,url.indexOf(".html"));history.replaceState(null,null,"../"+url)}
 else{if(!postsDatePrefix)url=url.substring(url.indexOf("/",7)+1);else url=url.substring(1);url=url.substr(0,url.indexOf(".html"));history.replaceState(null,null,"../../"+url)}}
