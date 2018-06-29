@@ -29,7 +29,7 @@ a:hover {color: #e97991;}
 
 <div id='_rekomendasi-anime'>
 <script type='text/javascript'>/*<![CDATA[*/function random_post(e){for(var t=0;t<e.feed.entry.length;t++){var r=e.feed.entry[t];relatedTitles[relatedTitlesNum]=r.title.$t;for(var a=0;a<r.link.length;a++)if("alternate"==r.link[a].rel){relatedUrls[relatedTitlesNum]=r.link[a].href,relatedTitlesNum++;break}}}function removeRelatedDuplicates(){for(var e=new Array(0),t=new Array(0),r=0;r<relatedUrls.length;r++)contains(e,relatedUrls[r])||(e.length+=1,e[e.length-1]=relatedUrls[r],t.length+=1,t[t.length-1]=relatedTitles[r]);relatedTitles=t,relatedUrls=e}function contains(e,t){for(var r=0;r<e.length;r++)if(e[r]==t)return!0;return!1}function printRelatedLabels(){for(var e=0;e<relatedUrls.length;e++)relatedUrls[e]==currentposturl&&(relatedUrls.splice(e,1),relatedTitles.splice(e,1));var t=Math.floor((relatedTitles.length-1)*Math.random()),e=0;for(relatedTitles.length>1&&document.write('<div id="_rdp-text"><h2>Recomended</h2><marquee onmouseover="this.stop()" onmouseout="this.start()">');e<relatedTitles.length&&20>e&&maxresults>e;)document.write('<a href="'+relatedUrls[t]+'">'+relatedTitles[t]+"</a>"),t<relatedTitles.length-1?t++:t=0,e++;document.write('</marquee><span class="clear"/></div>')}var relatedTitles=new Array,relatedTitlesNum=0,relatedUrls=new Array/*]]>*/</script>
-<script src='/feeds/posts/default?alt=json-in-script&amp;callback=random_post&amp;max-results=7' type='text/javascript'/>
+<script src='https://kyunqib.blogspot.co.id/feeds/posts/default?alt=json-in-script&amp;callback=random_post&amp;max-results=7' type='text/javascript'/>
 <script type='text/javascript'>
 var currentposturl=&quot;&quot;;
 var maxresults=7;
