@@ -5,7 +5,7 @@
 var postsDatePrefix = false;
 var accessOnly = false;
 var useApiV3 = false;
-var apiKey = "Api-Key";
+var apiKey = "483618014256-5vfhldmrhlf6hl7bhkat0i88qom0vcjc.apps.googleusercontent.com,0z6_ahtIxnFChS3oZjaanu3m";
 var blogId = "8382796776817819216";
 // -------------------------
 var postsOrPages=["pages","posts"],urlTotal,jsonIndex=1,secondRequest=!0,feedPriority=0,amp="&amp;"[0],nextPageToken;function urlVal(){var url=window.location.pathname;var length=url.length;var urlEnd=url.substring(length-5);if(urlEnd===".html")return 0;else if(length>1)return 1;else return 2}
