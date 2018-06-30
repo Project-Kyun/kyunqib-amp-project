@@ -25,6 +25,7 @@ ul#featured-post li.featured-item:hover img{-webkit-transform:scale(1.1);transfo
 </style>
 </head>
 <body>
+  <a target='_blank'/>
   <script>
     function filter_artikel(t,e){for(var r=t.split("<"),i=0;i<r.length;i++)-1!=r[i].indexOf(">")&&(r[i]=r[i].substring(r[i].indexOf(">")+1,r[i].length));return r=r.join(""),r=r.substring(0,e-1)}
 function read_contentz(t){for(var e=0;e<t.feed.entry.length;e++){var r=t.feed.entry[e];titleinartikel[title_articlez]=r.title.$t,postcontent="","content" in r?postcontent=r.content.$t:"summary" in r&&(postcontent=r.summary.$t),show_artikel[title_articlez]=filter_artikel(postcontent,numsnippets),"media$thumbnail" in r?postimg=r.media$thumbnail.url:postimg="//2.bp.blogspot.com/-ex3V86fj4dQ/UrCQQa4cLsI/AAAAAAAAFdA/j2FCTmGOrog/s151-rw/no-thumbnail.png",show_imagez[title_articlez]=postimg;for(var i=0;i<r.link.length;i++)
