@@ -223,7 +223,7 @@ span.time-info,.author-info,.comment-if{display:inline-block;margin-right:8px;fo
 ._img-thumbnail amp-img{-webkit-transition:all 0.3s ease;transition:all 0.3s ease}
 ._img-thumbnail a:after{content:'';position:absolute;bottom:0;right:0;left:0;top:0;-moz-box-shadow:inset 0 0 20px rgba(0,0,0,0.2);box-shadow:inset 0 0 20px rgba(0,0,0,0.2)}
 .author-info,.comment-if,a.readmore,.post-body .summary{display:none}
-.leftarea{float:left;width:160px;margin-right:12px;border:1px solid #ccc;min-height:600px;background-repeat:no-repeat;}
+/*.leftarea{float:left;width:160px;margin-right:12px;border:1px solid #ccc;min-height:600px;background-repeat:no-repeat;}*/
 /*.iklanleft{overflow:hidden;float:left;margin-bottom:7px;width:145px;height:680px;border:1px solid #ddd;background:url(//1.bp.blogspot.com/-EBzyxgBUSpU/WxiO_AUPZKI/AAAAAAAADgk/j5vsAq_hGksNVBmuB3tdG0HUErOwSSNcgCLcBGAs/s1600/support-kyunqib.jpg)}*/
 #Label-info{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 #Label-info a {font-size: 12px;color: #FFF;background: #2196F3;padding: 3px 8px;display: inline-block;border-radius: 3px;}
