@@ -263,3 +263,77 @@ h2.h2kanan{float:right;font-size:11px;margin-top:14px;margin-right:12px;padding:
 .relatet-info ul li:nth-child(n+5){display:none;}
 ul.recent-posts-container {height:100px;overflow-x:hidden;overflow-y:auto;list-style:none;}
 .post-update {float: right;}
+/* CSS Global Responsive */
+@media screen and (max-width:1066px) {
+#outer-wrapper {margin:0 auto;}
+.header-right {float:right;padding:0;overflow:hidden;margin:0;}
+.header-right img {display:block;}}
+
+@media screen and (max-width:960px) {
+#outer-wrapper {margin:0 auto;border:none;box-shadow:none;}
+}
+
+@media only screen and (max-width:768px){
+#post-wrapper, #sidebar-wrapper {width:100%;max-width:100%;padding:0;margin:0 auto;}
+.post-body img {max-width:100%;}
+.sidebar-inner, .post-inner {padding:15px 0 0px;}
+.leftcredits,#credits {float:none;text-align:center;margin:10px auto;}
+.Profile .profile-datablock {display:inline;float:left;}
+#footer {width: 100%;margin: 10px auto 0;}
+#footer-wrap {float: none;margin: auto;width:auto;padding: 0 10px;height: auto;}
+.foot{width:100%;margin:0 0 10px;float: none;}
+.foot:nth-child(2){margin:0}.foot h2{font-size:13px}#footer{background-image:none}
+}
+
+@media only screen and (max-width:480px){
+#outer-wrapper {margin:0 auto;max-width:100%;width:95%;}
+.header-right{float:none;margin:0 auto;text-align:center;}
+.header-right img, .header-right iframe{float:none;margin:0 auto;text-align:center;}
+.post {margin:0 0 8px;padding:8px;}
+h2.post-title, h1.post-title {font-size:16px;text-align:center!important;display:block}
+.comments .comment-block, .comments .comments-content .inline-thread {
+padding:10px !important;}
+.comment .comment-thread.inline-thread .comment {margin: 0 0 0 0 !important;}
+.share{margin-top: 10px;display:block;float: none!important;text-align: center;}
+.アニメ {font-size:12px;}
+.authorLeft{float:none;width:120px;margin:0 auto}
+.authorDetails{text-align:center}
+.authorDetails h2{float:none}
+.authorDetails span{float:none}
+.articleAuthor .authorContent p{text-align:center}}
+
+@media screen and (max-width:320px){
+.header-right{float:none;margin:0 auto;text-align:center;}
+.header-right img, .header-right iframe{float:none;margin:0 auto;text-align:center;}
+.post {padding:0px;margin:2px;border:none}}
+/* CSS Homepage Responsive */
+@media screen and (max-width:800px) {
+.post-update{display:block;float:none;}
+li.recent-posts-list {text-align:center;border-bottom: 1px dashed;}
+.post-view,.relatet-info ul li a:before{display:none;}
+}
+
+@media only screen and (max-width:768px){
+.relatet-info ul li a:before,h2.h2kanan{display:none}
+.post {padding:10px;width:43%;height:300px;}
+.h1game{float: none;width:100%;display:inline-block;}
+.post-img {margin:0 10px 0 0;}}
+
+@media only screen and (max-width:640px){
+#content-wrapper {padding:0;}
+h2.post-title, h1.post-title, h2.post-title a, h1.post-title a, h2.post-title, h1.post-title {white-space:normal;font-size:18px;margin:20px 0;clear:both;}
+.post-body {margin-bottom:10px;width:0;height:0;}
+.アニメ {margin-left:0;margin: 0;text-align: center;}
+.post-img {width:100%;height:auto;margin:0;}
+.post-img img {width:100%;height:auto;}
+.post-body,.comment-info{visibility:hidden;}
+.post .label-info {left:15px;top:15px;}}
+
+@media only screen and (max-width:480px){
+.relatet-info ul li a:before{display:none}
+h2.post-title, h1.post-title, h2.post-title a, h1.post-title a, h2.post-title, h1.post-title {font-size:15px;margin:0 auto 5px;}
+.post-body, .comment-info {display:none!important;visibility:hidden;width:0;height:0;}}
+
+@media only screen and (max-width:320px){
+.relatet-info ul li a:before{display:none}
+h2.post-title, h1.post-title, h2.post-title a, h1.post-title a, h2.post-title, h1.post-title {font-size:14px;text-align: center;margin: 0;}}
