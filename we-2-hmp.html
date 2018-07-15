@@ -53,14 +53,9 @@ document.write("<scr" + "ipt type=\"text/javascript\" src=\""+feedaddress+"/feed
 // Resize
 $(document).ready(function(){$('#contx ._rzfeeditem img').attr('src',function(i,src){return src.replace('s72-c','w190-h115-c');});});
 // Auto
-  $(document).ready(function() {  
-  $('img').each(function(){  
-   var $img = $(this);  
-   var filename = $img.attr('src')  
-   $img.attr('title', filename.substring((filename.lastIndexOf('/'))+1, filename.lastIndexOf('.')));  
-   $img.attr('alt', filename.substring((filename.lastIndexOf('/'))+1, filename.lastIndexOf('.')));  
-  });  
- });
+$(document).ready(function(){$('img').each(function(){var $img=$(this);var filename=$img.attr('src')
+$img.attr('title',filename.substring((filename.lastIndexOf('/'))+1,filename.lastIndexOf('.')));$img.attr('alt',filename.substring((filename.lastIndexOf('/'))+1,filename.lastIndexOf('.')))})});$(document).ready(function(){$('a').each(function(){var $a=$(this);var filename=$a.attr('href')
+$a.attr('title',filename.substring((filename.lastIndexOf('/'))+1,filename.lastIndexOf('.')));$a.attr('alt',filename.substring((filename.lastIndexOf('/'))+1,filename.lastIndexOf('.')))})})
 //]]></script>
 </body>
 </html>
